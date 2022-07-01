@@ -1,6 +1,9 @@
 {
   "name": "mean-stack-example",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "description": "Sample CRUD application built with the MEAN stack.",
   "main": "index.js",
   "scripts": {
