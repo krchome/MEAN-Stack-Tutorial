@@ -7,14 +7,12 @@
   "description": "Sample CRUD application built with the MEAN stack.",
   "main": "index.js",
   "scripts": {
-    
     "start": "npm run prepare && concurrently \"npm run start:server\" \"npm run start:client\"",
     "start:server": "cd server && npm start",
     "start:client": "cd client && npm start",
     "prepare": "concurrently \"npm run prepare:server\" \"npm run prepare:client\"",
     "prepare:server": "cd server && npm install",
     "prepare:client": "cd client && npm install",
-    
     "build": "npm run prepare && concurrently \"npm run build:server\" \"npm run build:client\"",
     "build:server": "cd server && npm run build",
     "build:client": "cd client && npm run build",
@@ -37,7 +35,9 @@
     "url": "https://github.com/krchome/MEAN-Stack-Tutorial"
   },
   "devDependencies": {
-    "concurrently": "^7.2.2",
-    "typescript": "~4.5.2"
+    "concurrently": "^7.2.2"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
   }
 }
