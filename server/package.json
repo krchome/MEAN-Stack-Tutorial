@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "server.ts",
+  "main": "index.js",
   "scripts": {
     "start": "ts-node src/server.ts",
     "build": "tsc",

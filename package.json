@@ -35,6 +35,8 @@
     "url": "https://github.com/krchome/MEAN-Stack-Tutorial"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
     "concurrently": "^7.2.2"
   },
   "dependencies": {
