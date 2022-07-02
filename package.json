@@ -31,12 +31,13 @@
     }
   ],
   "license": "Apache 2.0",
-  "homepage": "https://github.com/mongodb-developer/mean-stack-example#readme",
+  "homepage": "https://github.com/krchome/MEAN-Stack-Tutorial#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mongodb-developer/mean-stack-example.git"
+    "url": "https://github.com/krchome/MEAN-Stack-Tutorial"
   },
   "devDependencies": {
-    "concurrently": "^7.2.2"
+    "concurrently": "^7.2.2",
+    "typescript": "~4.5.2"
   }
 }
