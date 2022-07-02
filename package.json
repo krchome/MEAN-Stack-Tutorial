@@ -7,13 +7,14 @@
   "description": "Sample CRUD application built with the MEAN stack.",
   "main": "index.js",
   "scripts": {
+    "deploy": "dist",
     "start": "npm run prepare && concurrently \"npm run start:server\" \"npm run start:client\"",
     "start:server": "cd server && npm start",
     "start:client": "cd client && npm start",
     "prepare": "concurrently \"npm run prepare:server\" \"npm run prepare:client\"",
     "prepare:server": "cd server && npm install",
     "prepare:client": "cd client && npm install",
-    "prebuild": "cd client && ng build --prod --aot",
+    
     "build": "npm run prepare && concurrently \"npm run build:server\" \"npm run build:client\"",
     "build:server": "cd server && npm run build",
     "build:client": "cd client && npm run build",
