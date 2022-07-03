@@ -13,5 +13,10 @@
             "*": ["node_modules/*"]
         }
     },
-    "include": ["src/**/*"]
+   
+    "include": ["src/**/*"],
+    "typeRoots": [
+        "./typings",
+        "./node_modules/@types/"
+      ]
 }
