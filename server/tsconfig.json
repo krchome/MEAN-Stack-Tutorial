@@ -16,7 +16,7 @@
    
     "include": ["src/**/*"],
     "typeRoots": [
-        "./typings",
+        "./typings/index.d.ts",
         "./node_modules/@types/"
       ]
 }
