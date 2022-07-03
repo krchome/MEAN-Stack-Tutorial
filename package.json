@@ -11,6 +11,8 @@
     "start:server": "cd server && npm start",
     "start:client": "cd client && npm start",
     "prepare": "concurrently \"npm run prepare:server\" \"npm run prepare:client\"",
+    "cors": "cd server && npm install @types/cors",
+    "express": "cd server && npm install @types/express",
     "prepare:server": "cd server && npm install",
     "prepare:client": "cd client && npm install",
     "build": "npm run prepare && concurrently \"npm run build:server\" \"npm run build:client\"",
