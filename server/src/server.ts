@@ -1,3 +1,6 @@
+
+declare module 'express';
+declare module 'cors';
 import * as dotenv from "dotenv";
 import cors from "cors";
 import express from "express";
