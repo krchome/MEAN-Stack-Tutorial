@@ -1,7 +1,9 @@
 
 
 import * as dotenv from "dotenv";
+//@ts-ignore
 import cors from "cors";
+//@ts-ignore
 import express from "express";
 import { connectToDatabase } from "./database";
 import { employeeRouter } from "./employee.routes";
